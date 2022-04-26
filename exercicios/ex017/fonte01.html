@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url(********);
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegada), "px", pt, pc
+            
+            Medidas Relativas
+            "em", ex, rem, vw, vh, %
+            Geralmente 16px = 1em
+            */
+            font-size: 1em;
+
+            /* lighter normal bold bolder*/
+            /* weight width height*/
+        }
+
+        h1 {
+            /* shorthand 'font'
+            
+            (font-style -> font-weight -> font-size -> font-family)
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eligendi quam molestiae asperiores quos voluptates distinctio harum cupiditate dignissimos incidunt voluptate, repellat possimus expedita, aliquam, nisi voluptatibus excepturi? Iusto, in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus corporis, illum quam tempora ullam blanditiis rerum veniam non ex ad est voluptates ipsa magnam laudantium voluptatibus, consequuntur obcaecati sapiente. Placeat. </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsam ab odio omnis. Iste, dignissimos nemo, perferendis assumenda sint sapiente eos illo doloremque distinctio, modi minus tempore alias mollitia quis!</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat autem maiores quis possimus. Sint vitae perspiciatis fugiat? Possimus aspernatur doloremque tempora non, culpa nemo dolore sunt. Suscipit pariatur iusto aliquid!</p>
+</body>
+</html>
